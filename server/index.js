@@ -32,4 +32,4 @@ io.on('connection', socket => {
 })
 
 
-httpServer.listen(3500, () => console.log('listening on port 3500'));
+httpServer.listen(3000, () => console.log('listening on port 3500'));
