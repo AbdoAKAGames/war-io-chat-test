@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3500')
+const socket = io('https://war-io-chat-test.vercel.app/app/')
 const username = prompt('what is your name');
 const joinRoomBtn = document.getElementById('join');
 const joinInp = document.getElementById('joinInp');
